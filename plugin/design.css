@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+.pull-left {
+  float: left;
+}
+
+.auto-container {
+  position: static;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.pull-right {
+  float: right;
+}
+
+.main-menu {
+  position: relative;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-collapse {
+  padding: 0;
+  float: left;
+}
+
+.navigation {
+  position: relative;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: block;
+}
+
+.navbar-collapse {
+  margin-left: 11rem;
+  margin-bottom: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: .5rem;
+  padding-left: 1.5rem;
+}
+
+.navbar-brand {
+  padding-bottom: 0;
+  padding-bottom: 0;
+}
+
+a.navbar-brand {
+  margin-left: 12.4rem;
+}
+
+.dropdown-menu {
+  border-color: red;
+  left: 20px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: red;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: red;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+  width: 100%;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  background-color: white;
+}
+
+/*#navbar{
+    display: none;
+}*/
+div#navbarSupportedContent1 {
+  margin-left: 11.5rem;
+}
+
+body {
+  background-image: url("../assets/car.jpg");
+  background-size: cover;
+  height: 1200px;
+}
+
+.full {
+  background-color: white;
+}
+
+.header-style-two .header-top {
+  background: #222;
+  padding-right: 40px;
+}
+
+.poster {
+  background-color: white;
+  height: 150px;
+  margin-top: 10rem;
+  border-top: 4px solid #eb0028;
+  border-left: 4px solid #eb0028;
+}
+
+.header-style-two .top-right .right-list {
+  position: relative;
+  float: left;
+  padding: 12px 0 13px;
+}
+
+.header-inner {
+  position: relative;
+  max-width: 1110px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-left: 4px solid #eb0028;
+}
+
+.header-style-two .header-top {
+  background: #222;
+  padding-right: 40px;
+}
+
+.header-style-two .top-right {
+  position: relative;
+  float: right;
+  background-color: black;
+  margin-right: -5.2rem;
+}
+
+.header-top .top-right .right-list li {
+  margin-left: 60px;
+}
+
+.header-top .top-right .right-list li {
+  position: relative;
+  font-size: 14px;
+  font-weight: 300;
+  color: white;
+  margin-left: 115px;
+  display: inline-block;
+}
+
+.header-style-two .header-top .language {
+  margin-left: 60px;
+}
+
+.main-header .header-top .language {
+  position: relative;
+  line-height: 1em;
+  margin-left: 110px;
+  display: inline-block;
+}
+
+.main-header .header-top .language > a {
+  color: white;
+  padding: 18px 0;
+  background: 0 0 !important;
+  text-transform: capitalize;
+  display: inline-block;
+  border: 0;
+  top: -1px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1em;
+  border-radius: 0;
+}
+
+ul.dropdown-menu.style-one.show {
+  position: absolute;
+  -webkit-transform: translate3d(0px, 50px, 0px);
+          transform: translate3d(0px, 50px, 0px);
+  top: 0px;
+  left: 0px;
+  will-change: transform;
+}
+
+.header-style-two .header-top .top-right .social-box {
+  float: right;
+  padding: 14px 0;
+  margin-left: 40px;
+}
+
+.header-style-two .header-top .top-right .social-box li {
+  position: relative;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+.header-style-two .header-top .top-right .social-box li a {
+  position: relative;
+  color: white;
+  font-size: 16px;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.main-header.header-style-two .header-upper .logo-box {
+  padding-top: 27px;
+  margin-top: 0px;
+  z-index: 1;
+  background-color: #fff;
+  padding-left: 37px;
+  padding-right: 15px;
+  margin-left: -33px;
+}
+
+.main-header .header-upper .logo-box {
+  position: relative;
+  padding: 40px 0 0;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.main-header.header-style-two .header-upper .upper-right .header-lower {
+  margin-top: 0;
+  padding-right: 20px;
+}
+
+.main-header .header-upper .upper-right .header-lower {
+  position: relative;
+  margin-top: 32px;
+}
+
+.main-header .nav-outer {
+  position: relative;
+  float: right;
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.main-menu .navbar-collapse {
+  padding: 0;
+  float: left;
+}
+
+.main-menu .navigation {
+  position: relative;
+  margin: 0;
+}
+
+.header-style-two .main-menu .navigation > li {
+  margin-right: 44px;
+  font-weight: 600;
+}
+
+.main-menu .navigation > li {
+  position: relative;
+  float: left;
+}
+
+.navigation > li.current > a {
+  opacity: 1;
+}
+
+.header-style-two .main-menu .navigation > li > a {
+  color: #222;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: raleway,sans-serif;
+}
+
+.header-style-two .main-menu .navigation > li > a {
+  padding: 25px 0 5px;
+  margin-bottom: 28px;
+}
+
+.main-menu .navigation > li > a {
+  position: relative;
+  display: block;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  text-transform: capitalize;
+  letter-spacing: 0;
+}
+
+.main-menu .navigation > li > ul > li {
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #f9f9f9;
+}
+
+.main-menu .navbar-collapse > ul li.dropdown .dropdown-btn {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: #fff;
+  line-height: 28px;
+  border: 1px solid #fff;
+  background-size: 20px;
+  cursor: pointer;
+  z-index: 5;
+  display: none;
+}
+
+.header-style-two .main-menu .navigation > li > a {
+  color: #222;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: raleway,sans-serif;
+  padding: 25px 0 5px;
+  margin-bottom: 28px;
+}
+
+li.nav-item.active.dropdown.list {
+  padding-right: 20px;
+  padding-top: 15px;
+}
+
+.logo.logo-height {
+  height: 100px;
+}
+
+.sec-sec .list .link-list {
+  color: red;
+}
+
+.nav2 .nav2-link {
+  color: black;
+}
+
+.nav2 :hover {
+  color: red;
+}
+
+.nav2 {
+  padding-right: 20px;
+  padding-top: 15px;
+}
+
+.clear {
+  clear: both;
+}
+/*# sourceMappingURL=design.css.map */

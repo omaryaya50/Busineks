@@ -440,6 +440,7 @@ li.nav-item.active.dropdown.list {
 
 .featured-sec {
   position: relative;
+  height: 0;
 }
 
 .feature-block {
@@ -455,10 +456,14 @@ li.nav-item.active.dropdown.list {
   }
 }
 
+a {
+  color: black;
+}
+
 .feature-block .inner-box {
   position: relative;
   padding-left: 175px;
-  padding-top: 45px;
+  padding-top: 30px;
   min-height: 155px;
   background-color: #f8f8f8;
 }
@@ -475,5 +480,13 @@ li.nav-item.active.dropdown.list {
   line-height: 155px;
   text-align: center;
   background-color: #eb0028;
+}
+
+h3 {
+  font-size: 1.255rem;
+}
+
+text2 {
+  color: #777777;
 }
 /*# sourceMappingURL=design.css.map */

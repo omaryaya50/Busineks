@@ -84,6 +84,7 @@ nav.navbar.navbar-expand-lg.navbar-light{
     position: fixed;
     top:0;
     background-color: white;
+    z-index: 11;
 
 }
 /*#navbar{
@@ -94,7 +95,8 @@ div#navbarSupportedContent1 {
 }
 body{
     background-image: url("../assets/car.jpg");
-    background-size: cover;
+    background-repeat: no-repeat;
+
     height: 1200px;
     
 }
@@ -320,3 +322,99 @@ li.nav-item.active.dropdown.list {
 .clear{
     clear: both;
 }
+.heading{
+    margin-top: 10rem;
+}
+.content-column{
+    position: relative;
+    text-align: center;
+}
+.font{
+    color: $navcolor;
+    line-height: 78px;
+    font-family:'Raleway', sans-serif;
+}
+.text{
+    position: relative;
+    color: $navcolor;
+    font-size: 20px;
+    line-height: 1.6em;
+    margin-top: 10px;
+    margin-bottom: 40px
+}
+.banner-form-two {
+    position: relative;
+    z-index: 1;
+    padding: 30px 30px;
+    background-color: rgba(255,255,255,0.10);
+}
+.banner-form-two .form-group {
+    position: relative;
+    margin-bottom: 0px;
+}
+.banner-form-two input[type="text"]{
+    display: block;
+    width: 100%;
+    line-height: 23px;
+    height: 50px;
+    font-size: 14px;
+    padding: 10px 20px;
+    background: #ffffff;
+    color: #222222;
+    border-radius: 3px;
+}
+.banner-form-two .form-group .theme-btn {
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 11px 35px 10px;
+    font-family: 'Raleway', sans-serif;
+    background-color: red;
+    color: $navcolor;
+}
+.btn-style-three:hover {
+    background-color: none;
+}
+.banner-form-two .form-group .theme-btn  :hover {
+    background-color: none;
+}
+.section-two{
+    margin-top: 6.9rem;
+    border-top: 4px solid red;
+}
+.featured-sec {
+    position: relative;
+}
+.feature-block {
+    position: relative;
+    width: 25%;
+    float: left;
+}
+@media only screen and (max-width: 1600px){
+.feature-block {
+    width: 25%;
+    margin-bottom: 5px;
+}
+}
+
+.feature-block .inner-box {
+    position: relative;
+    padding-left: 175px;
+    padding-top: 45px;
+    min-height: 155px;
+    background-color: #f8f8f8;
+}
+.feature-block .inner-box .icon-box{
+    position: absolute;
+    content: '';
+    left: 0px;
+    top: 0px;
+    color: #ffffff;
+    width: 155px;
+    height: 155px;
+    font-size: 70px;
+    line-height: 155px;
+    text-align: center;
+    background-color: #eb0028;
+}
+
